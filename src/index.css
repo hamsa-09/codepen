@@ -21,15 +21,16 @@ nav{
     flex-grow:1;
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    border:1px solid #ccc;
     background-color: hsl(255,6%,25%); 
+    width: 200px;
 }
 .editor-container.collapsed{
     flex-grow: 0;
 }
-.editor-container.collapsed .CodeMirror-scroll{
+/* .editor-container.collapsed .CodeMirror-scroll{
     position: absolute;
-}
+} */
 .editor-title{
     display: flex;
     justify-content:space-between ;
